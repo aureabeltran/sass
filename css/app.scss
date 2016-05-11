@@ -1,0 +1,18 @@
+$main-color: #3cb1f6;
+*{
+	font-family:lato;
+}
+header{
+	font-size: 20px;
+	padding: 5%;
+}
+.background{
+	background-image: url(../images/1920x665-1.jpg);
+	background-size: cover;
+	width: 100%;
+.botones .btn.btn-primary{
+	border-radius: 50px;
+	background-color: $main-color;
+}
+}
+
