@@ -1,18 +1,138 @@
 $main-color: #3cb1f6;
 *{
-	font-family:lato;
+	font-family:Oswald;
 }
-header{
+img{
+	width: 100%;
+}
+nav{
 	font-size: 20px;
-	padding: 5%;
+	padding: 10px;
+	li{
+		font-size: 20px;
+	}
 }
-.background{
+.navbar{
+	margin-bottom:0%;
+}
+.banner{
 	background-image: url(../images/1920x665-1.jpg);
 	background-size: cover;
 	width: 100%;
-.botones .btn.btn-primary{
-	border-radius: 50px;
-	background-color: $main-color;
+	position: relative;
+	color: white;
+	
+.list{
+	text-decoration: none;
+		li{
+		list-style: none;
+		display: inline-block;
+		padding: 10px 10px 10px 0px;
+		}
+	}
+	h1{
+		font-size:50px;
+		margin-bottom: 30px;
+		font-weight:bold;
+		font-family: Montserrat;
+	}
+	p{
+		font-size:17px;
+		margin-top: 10px;
+	}
+	a{
+		color: white;
+	}
 }
-}
+.botones{
+	.btn{
+		border-radius: 50px;
+		font-size: 20px;
+		border: 1px solid $main-color;
+		margin: 2%;
+	&.btn-primary{
+		background-color: $main-color;
+		&:hover{
+			background-color: white;
+			color: $main-color;
+			font-weight: bold;
+		}
+	}
+	&.btn-transparent{
+		color: $main-color;
 
+		&:hover{
+			background-color: $main-color;
+			color: white;
+			font-weight: bold;
+			}
+		}
+	}
+}
+.banner::before{
+  background-color: rgba(0, 0, 0, 0.47);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.container{
+	padding: 2%;
+}
+.borde{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	p{
+		font-size: 17px;
+		padding: 10px;
+	}
+	a{
+		color: $main-color;
+	}
+}
+.gray{
+	background-color:#E5E5E5;
+	h2{
+		text-align: center;
+	}
+	h6{
+		text-align: center;
+	}
+	p{
+		font-size: 16px;
+		padding: 0px 10px 10px 10px;
+	}
+	h4{
+		padding: 0px 10px 10px 10px;
+		font-weight: bold;
+	}
+	h6{
+		font-style: italic
+	}
+
+}
+footer{
+	text-align: center;
+	.iconos{
+		height: 30px;
+		width: 30px;
+		border: 1px solid $main-color;
+		padding:5px;
+		display: inline-block;
+		margin: 5px;
+		&:hover{
+			background-color: $main-color;
+			}
+			a{
+				color: $main-color;
+			}
+			a:hover{
+				font-weight: bold;
+				color: white;
+			}
+	}
+	p{
+		margin-top: 20px;
+	}
+}

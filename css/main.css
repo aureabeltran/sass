@@ -1,16 +1,111 @@
 * {
-  font-family: lato; }
+  font-family: Oswald; }
 
-header {
+img {
+  width: 100%; }
+
+nav {
   font-size: 20px;
-  padding: 5%; }
+  padding: 10px; }
+  nav li {
+    font-size: 20px; }
 
-.background {
+.navbar {
+  margin-bottom: 0%; }
+
+.banner {
   background-image: url(../images/1920x665-1.jpg);
   background-size: cover;
-  width: 100%; }
-  .background .botones .btn.btn-primary {
-    border-radius: 50px;
+  width: 100%;
+  position: relative;
+  color: white; }
+  .banner .list {
+    text-decoration: none; }
+    .banner .list li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px 10px 10px 0px; }
+  .banner h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Montserrat; }
+  .banner p {
+    font-size: 17px;
+    margin-top: 10px; }
+  .banner a {
+    color: white; }
+
+.botones .btn {
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #3cb1f6;
+  margin: 2%; }
+  .botones .btn.btn-primary {
     background-color: #3cb1f6; }
+    .botones .btn.btn-primary:hover {
+      background-color: white;
+      color: #3cb1f6;
+      font-weight: bold; }
+  .botones .btn.btn-transparent {
+    color: #3cb1f6; }
+    .botones .btn.btn-transparent:hover {
+      background-color: #3cb1f6;
+      color: white;
+      font-weight: bold; }
+
+.banner::before {
+  background-color: rgba(0, 0, 0, 0.47);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+.container {
+  padding: 2%; }
+
+.borde {
+  border-top: 1px solid black;
+  border-left: 1px solid black; }
+  .borde p {
+    font-size: 17px;
+    padding: 10px; }
+  .borde a {
+    color: #3cb1f6; }
+
+.gray {
+  background-color: #E5E5E5; }
+  .gray h2 {
+    text-align: center; }
+  .gray h6 {
+    text-align: center; }
+  .gray p {
+    font-size: 16px;
+    padding: 0px 10px 10px 10px; }
+  .gray h4 {
+    padding: 0px 10px 10px 10px;
+    font-weight: bold; }
+  .gray h6 {
+    font-style: italic; }
+
+footer {
+  text-align: center; }
+  footer .iconos {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #3cb1f6;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px; }
+    footer .iconos:hover {
+      background-color: #3cb1f6; }
+    footer .iconos a {
+      color: #3cb1f6; }
+    footer .iconos a:hover {
+      font-weight: bold;
+      color: white; }
+  footer p {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
